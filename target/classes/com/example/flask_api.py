@@ -33,4 +33,4 @@ def predict():
     return jsonify(response)
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5001)  # Ensure it's running on the correct port
+    app.run(debug=True, port=5002)  # Ensure it's running on the correct port

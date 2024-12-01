@@ -290,7 +290,7 @@ class InputValidator extends InputValidatorBase {
 
 // Class for making an API call to detect fraud (Encapsulation, Inheritance, Polymorphism)
 class APICommunicator {
-    private final String apiUrl = "https://api.example.com/fraud-detection";
+    private final String apiUrl = "http://127.0.0.1:5002/predict"; // can replace with actual API to the model in the future. 
 
     public String sendRequest(FraudInput input) {
         try {

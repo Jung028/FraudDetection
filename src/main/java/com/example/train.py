@@ -1,6 +1,6 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split, GridSearchCV
-from sklearn.linear_model import LogisticRegression
+from sklearn.linear_model import LogisticRegression # for classfication tasks 
 from sklearn.metrics import classification_report
 from sklearn.preprocessing import StandardScaler
 from sklearn.impute import SimpleImputer
